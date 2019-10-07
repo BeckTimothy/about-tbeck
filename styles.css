@@ -33,3 +33,8 @@ img {
 	width: 75%;
 	padding: 5em;
 }
+#activities {
+	position: relative;
+	text-align: left;
+	padding-left: 30%;
+}
