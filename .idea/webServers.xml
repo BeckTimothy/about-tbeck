@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="7a1c2215-3c27-4b17-8a00-d81ddf61903a" name="about-tbeck" url="https://bootcamp-coders.cnm.edu/~jjohnsonrodger/about-tbeck">
+        <fileTransfer host="bootcamp-coders.cnm.edu" port="22" rootFolder="/home/jjohnsonrodger/public_html/about-tbeck" accessType="SFTP" authAgent="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
