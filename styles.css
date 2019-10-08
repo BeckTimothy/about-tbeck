@@ -1,5 +1,11 @@
 p {
-
+	text-align: left;
+}
+h1:hover {
+	animation-name: skewIt;
+	animation-timing-function: linear;
+	animation-iteration-count: 1;
+	animation-duration: 2s;
 }
 h1 {
 
@@ -23,13 +29,13 @@ img {
 	justify-content: space-around;
 }
 .wrapper {
-	align-self: center;
+	margin: auto;
 	text-align: center;
 	background: linear-gradient(0.35turn, rgb(240,180,180), rgb(180,180,240));
 	align-content: center;
 	border: 3px solid rgb(0,0,0);
 	border-radius: 5%;
-	position: absolute;
+	position: relative;
 	width: 75%;
 	padding: 5em;
 }
@@ -50,5 +56,17 @@ img {
 	}
 	75%{
 		transform: translateX(-5em);
+	}
+}
+@keyframes skewIt {
+
+	27.5%{
+		transform: skew(15deg,15deg);
+	}
+	57.5% {
+		transform: skew(0deg, 0deg);
+	}
+	87.5%{
+		transform: skew(-15deg,-15deg);
 	}
 }
